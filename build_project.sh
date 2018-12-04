@@ -1,2 +1,1 @@
-apt-get update
-apt-get install -y curl nginx
+docker run a51debf7e1eb
