@@ -1,4 +1,6 @@
 FROM ubuntu
+
+RUN apt-get install wget
  
 RUN wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | apt-key add -
  
